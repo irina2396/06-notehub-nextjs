@@ -3,7 +3,7 @@ import css from './NoteForm.module.css'
 import * as Yup from 'yup' 
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import { createNote } from '@/lib/api';
-import { NoteTag } from '@/types/notes';
+import { NoteTag } from '@/types/note';
 
 const validationSchema = Yup.object({
     title: Yup.string().min(3).max(50).required('Required'),
