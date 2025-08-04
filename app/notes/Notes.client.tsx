@@ -7,7 +7,7 @@ import { useState } from 'react'
 import SearchBox from '../../components/SearchBox/SearchBox'
 import NoteList from '../../components/NoteList/NoteList'
 import Pagination from '../../components/Pagination/Pagination'
-import Modal from '../../components/NoteModal/NoteModal'
+import Modal from '../../components/NoteModal/Modal'
 import NoteForm from '../../components/NoteForm/NoteForm'
 import { useDebounce } from 'use-debounce'
 import 'modern-normalize/modern-normalize.css';
